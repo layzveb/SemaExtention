@@ -10,7 +10,7 @@
         {
           "matches": ["http://*/*", "https://*/*"],
           "js": ["mutation.js"],
-          "css": ["mutation.css"]
+          "css": ["styles.css"]
         }
     ],
     "permissions": [

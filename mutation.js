@@ -21,12 +21,8 @@ cage.appendChild(jaw);
 // Append to page's body
 document.body.appendChild(cage);
 
-// Load audio
-let nanana = new Audio(pathNanana)
-nanana.loop = true;
-
 // Hide Cage on click on himself
-cage.addEventListener('click', hideCage);
+// cage.addEventListener('click', hideCage);
 
 
 // function showCage(e){
