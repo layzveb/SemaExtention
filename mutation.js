@@ -29,17 +29,17 @@ nanana.loop = true;
 cage.addEventListener('click', hideCage);
 
 
-function showCage(e){
-    if (cage.classList.contains('cage_hidden')) {
-        cage.classList.remove('cage_hidden', 'cage_shutup');
-        nanana.play();
-    }
-}
+// function showCage(e){
+//     if (cage.classList.contains('cage_hidden')) {
+//         cage.classList.remove('cage_hidden', 'cage_shutup');
+//         nanana.play();
+//     }
+// }
 
-function hideCage(){
-    cage.classList.add('cage_hidden', 'cage_shutup');
-    nanana.pause();
-}
+// function hideCage(){
+//     cage.classList.add('cage_hidden', 'cage_shutup');
+//     nanana.pause();
+// }
 
 // Get all links from the page and show Cage on hover
 let links = [...document.querySelectorAll('a')];

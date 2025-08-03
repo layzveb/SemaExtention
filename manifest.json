@@ -1,6 +1,6 @@
 {
-    "name": "Annoying Cage",
-    "description" : "Cage disturb you from browsing",
+    "name": "Super Sema",
+    "description" : "With him the game goes like clockwork!",
     "version": "0.1",
     "manifest_version": 2,
     "browser_action": {
@@ -14,7 +14,11 @@
         }
     ],
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "webRequest",
+        "find",
+        "background",
+        "tabss"
     ],
     "web_accessible_resources": [
       "i/*"
