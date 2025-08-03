@@ -16,7 +16,6 @@
     "permissions": [
         "activeTab",
         "webRequest",
-        "find",
         "background",
         "tabss"
     ],
